@@ -14,6 +14,6 @@ def reverse_each_word(phrase)
   array.collect do |word|
     new = [] 
     new << word.reverse
-  end]
+  end
   new.join(' ')
 end
