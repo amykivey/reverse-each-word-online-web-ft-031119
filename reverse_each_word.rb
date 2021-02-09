@@ -7,8 +7,6 @@ def reverse_each_word(phrase)
   new = new.join(' ')
   new
   
-  
-  
 end
 
 def reverse_each_word(phrase)
@@ -17,5 +15,4 @@ def reverse_each_word(phrase)
     word.reverse
     end
     array.join('')
-  end
 end
