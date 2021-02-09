@@ -12,7 +12,8 @@ end
 
 
 def reverse_each_word(phrase)
-  phrase.collect do |word|
+  array = phrase.split
+  array.collect do |word|
     word.reverse
   end
   
