@@ -19,3 +19,9 @@ def reverse_each_word(phrase)
   
 end
     
+    
+    some_new_var = arr.collect do |word|
+      
+    end
+    
+    some_new_var.join(' ')
